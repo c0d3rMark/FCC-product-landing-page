@@ -1,3 +1,20 @@
+/*Global*/
+
 body {
-    background-color: red;
+    background-color: #f4f4f4;
 }
+
+header {
+    background-color: #F2F0F1;
+    display: flex;
+    position: fixed;
+}
+
+#header-img {
+    max-width: 90px;
+    display: flex;
+}
+
+/* #nav-bar {
+    float: right;
+} */

@@ -5,9 +5,10 @@ body {
 }
 
 header {
-    background-color: #F2F0F1;
+    background-color: red;
     display: flex;
     position: fixed;
+    top: 0;
     width: 100%;
 }
 
@@ -20,10 +21,16 @@ header {
     float: right;
 } */
 
+#showcase {
+    margin-top: 120px;
+}
+
 #how-it-works {
-    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 iframe {
-    height: 500px;
+    max-width: 500px;
+    width: 100%;
 }

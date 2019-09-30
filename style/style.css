@@ -8,6 +8,7 @@ header {
     background-color: #F2F0F1;
     display: flex;
     position: fixed;
+    width: 100%;
 }
 
 #header-img {
@@ -18,3 +19,11 @@ header {
 /* #nav-bar {
     float: right;
 } */
+
+#how-it-works {
+    width: 100%;
+}
+
+iframe {
+    height: 500px;
+}

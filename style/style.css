@@ -23,14 +23,34 @@ header {
 
 #showcase {
     margin-top: 120px;
+    background-color: white;
+}
+
+#features {
+    width: 100%;
+    background-color: yellow;
+    padding-bottom: 40px;
+}
+
+.fun,
+.delivery,
+.easy {
+    display: block;
+    padding-top: 10px;
 }
 
 #how-it-works {
     display: flex;
     justify-content: center;
+    background-color: blue;
 }
 
 iframe {
     max-width: 500px;
     width: 100%;
+}
+
+/* Media queries */
+@media (max-width: 500px) {
+    
 }

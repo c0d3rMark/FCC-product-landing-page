@@ -50,6 +50,29 @@ iframe {
     width: 100%;
 }
 
+.product-container {
+    display: flex;
+}
+
+.pricingHeading {
+    background-color: green;
+    text-align: center;
+}
+
+.h2-container {
+    min-height: 80px;
+}
+
+.prod_desc {
+    margin: 5px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.cost {
+    font-size: 25px;
+}
+
 /* Media queries */
 @media (max-width: 500px) {
     

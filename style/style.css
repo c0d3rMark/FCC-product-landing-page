@@ -4,6 +4,11 @@ body {
     background-color: #f4f4f4;
 }
 
+body p {
+    font-size: 17px;
+    font-family: Helvetica, 'Arial Narrow Bold', sans-serif;
+}
+
 header {
     background-color: red;
     display: flex;
@@ -17,9 +22,21 @@ header {
     display: flex;
 }
 
-/* #nav-bar {
+#nav-bar {
+    background-color: yellow;
+    width: 100%;
+}
+
+#nav-bar a {
     float: right;
-} */
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar li {
+    list-style: none;
+}
 
 #showcase {
     margin-top: 120px;
@@ -28,15 +45,26 @@ header {
 
 #features {
     width: 100%;
-    background-color: yellow;
     padding-bottom: 40px;
 }
 
+#features i {
+    filter: drop-shadow(1px 1px 1px black);
+}
+
 .fun,
-.delivery,
-.easy {
-    display: block;
-    padding-top: 10px;
+.easy,
+.delivery {
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+
+.fun p,
+.easy p,
+.delivery p {
+    padding-left: 20px;
+    text-align: left;
 }
 
 #how-it-works {

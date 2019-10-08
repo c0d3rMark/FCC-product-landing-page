@@ -2,6 +2,7 @@
 
 body {
     background-color: #f4f4f4;
+    margin: 0;
 }
 
 body p {
@@ -10,21 +11,22 @@ body p {
 }
 
 header {
-    background-color: red;
     display: flex;
     position: fixed;
     top: 0;
     width: 100%;
+    box-shadow: 0 5px 5px -5px #333;
+    z-index: 1;
 }
 
 #header-img {
-    max-width: 90px;
+    max-width: 100px;
     display: flex;
 }
 
 #nav-bar {
-    background-color: yellow;
     width: 100%;
+    background-color: #F2F0F1;
 }
 
 #nav-bar a {
@@ -40,11 +42,12 @@ header {
 
 #showcase {
     margin-top: 120px;
-    background-color: white;
+    text-align: center;
 }
 
 #features {
-    width: 100%;
+    width: 50%;
+    margin: auto;
     padding-bottom: 40px;
 }
 
@@ -70,12 +73,22 @@ header {
 #how-it-works {
     display: flex;
     justify-content: center;
-    background-color: blue;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    align-items: center;
 }
 
 iframe {
     max-width: 500px;
     width: 100%;
+    padding: 20px;
+
+}
+
+#pricing {
+    width: 70%;
+    margin: auto;
 }
 
 .product-container {
@@ -83,7 +96,6 @@ iframe {
 }
 
 .pricingHeading {
-    background-color: green;
     text-align: center;
 }
 
@@ -95,10 +107,28 @@ iframe {
     margin: 5px;
     border: 1px solid black;
     padding: 10px;
+    background-color: white;
 }
 
 .cost {
     font-size: 25px;
+}
+
+#form {
+    min-height: 200px;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+#email {
+    min-width: 300px;
+}
+
+#submit {
+    margin-top: 20px;
+    padding: 10px;
 }
 
 /* Media queries */

@@ -41,8 +41,17 @@ header {
 }
 
 #showcase {
-    margin-top: 120px;
+    margin-top: 140px;
+    margin-bottom: 40px;
     text-align: center;
+}
+
+#showcase h1 {
+    font-size: 35px;
+}
+
+#showcase hr {
+     width: 400px;
 }
 
 #features {
@@ -75,8 +84,10 @@ header {
     justify-content: center;
     width: 50%;
     margin: auto;
-    background-color: black;
+    background-color: white;
     align-items: center;
+    border: 1px solid black;
+    padding: 40px 0;
 }
 
 iframe {
@@ -89,6 +100,7 @@ iframe {
 #pricing {
     width: 70%;
     margin: auto;
+    padding-bottom: 50px;
 }
 
 .product-container {
@@ -97,6 +109,11 @@ iframe {
 
 .pricingHeading {
     text-align: center;
+    padding: 30px 0;
+}
+
+#pricing .pricingHeading h2 {
+    font-size: 30px;
 }
 
 .h2-container {
@@ -120,6 +137,11 @@ iframe {
     text-align: center;
     padding-top: 40px;
     margin-top: 20px;
+}
+
+#email {
+    line-height: 20px;
+    width: 500px;
 }
 
 #email {
